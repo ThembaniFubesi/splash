@@ -1,10 +1,15 @@
 .header{
-    background: #222e3e;
-    height: 500px;
+    background: #2F4858;
     color:#ffffff;
     text-align: center;
-    h1{
-        font-family: 'Oswald', sans-serif;
-        font-size: 3em;
+    padding: 20px;
+    border-bottom: 1px darken(#2F4858, 9) solid;
+    .vcenter{
+        min-height: 300px;
+    }    
+    p{
+        font-size: 1em; 
+        max-width: 800px;
+        margin: 0 auto;
     }
 }

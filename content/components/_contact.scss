@@ -1,0 +1,33 @@
+.contact{
+  color:#2F4858;
+  text-align: center;
+  padding: 20px;
+  h1{
+    font-size: 2em;
+    position: relative;
+    border-bottom: 2px #ED1C24 solid;
+    margin: 0 0 40px 0;
+    display: inline-block;
+    font-family: 'Archivo Narrow', sans-serif;
+    font-weight: bold;
+  }
+  ul{
+    font-size: 1em;
+    li{
+      padding: 0 0 20px 0;
+      h2{
+        font-weight: bold;
+        text-transform: uppercase;
+      }
+      p{
+        a{
+          color:#2F4858;
+          text-decoration: underline;
+          &:hover{
+            text-decoration: none;
+          }
+        }
+      }
+    }
+  }
+}

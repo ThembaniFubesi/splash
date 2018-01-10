@@ -1,9 +1,59 @@
 @import "components/minireset";
 @import "components/vcenter";
+@import "components/logo";
 @import "components/header";
+@import "components/contact";
+
+.left{
+    float: left;
+  }
+  .right{
+    float: right;
+  }
+  
+  .clearfix:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+  }
+  .clearfix { display: inline-block; }
+  /* start commented backslash hack \*/
+  * html .clearfix { height: 1%; }
+  .clearfix { display: block; }
+  /* close commented backslash hack */
+  
+  *{
+    box-sizing: border-box;
+  }
 
 body{
     font-family: 'Open Sans', sans-serif;
     color:#000000;
     font-size: 16px;
+    @media all and (max-width:1024px) {
+        font-size: 14px;
+    }
+    @media all and (max-width:800px) {
+        font-size: 13px;
+    }
+}
+
+.cssvhunit{
+    .header{        
+        padding: 0;
+        .vcenter{
+            padding: 40px;
+            min-height:50vh;
+        }
+    }
+    .contact{        
+        padding: 0;
+        .inner{
+            padding: 40px 20px;
+            min-height:50vh;
+        }
+    }
 }
