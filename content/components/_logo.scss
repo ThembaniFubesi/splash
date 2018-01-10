@@ -6,5 +6,8 @@
         height: auto;
         width: 100%;
         backface-visibility: hidden;
+        @media all and (max-width:480px){
+            max-width: 300px;
+        }
     }
 }
