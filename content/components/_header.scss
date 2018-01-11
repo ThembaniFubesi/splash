@@ -1,14 +1,30 @@
-.header{
-    background: #2F4858;
-    color:#ffffff;
+.header {
+    background: #2F4858 url("images/bg.jpg") no-repeat center center;
+    background-size: cover;
+    color: #ffffff;
     text-align: center;
     padding: 20px;
     border-bottom: 1px darken(#2F4858, 9) solid;
-    .vcenter{
+    position: relative;
+
+    &:before {
+        content:"";
+        background: rgba(#2F4858, 0.95);
+        position:absolute;
+        top:0;
+        left:0;
+        height:100%;
+        width:100%;
+    }
+
+    .vcenter {
         min-height: 300px;
-    }    
-    p{
-        font-size: 1em; 
+        position:relative;
+        z-index:99;
+    }
+
+    p {
+        font-size: 1em;
         max-width: 800px;
         margin: 0 auto;
         line-height: 1.5;
