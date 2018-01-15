@@ -7,20 +7,26 @@
     border-bottom: 1px darken(#2F4858, 9) solid;
     position: relative;
 
+    h1 {
+        font-family: 'Archivo Narrow', sans-serif;
+        font-size: 2.8em;
+        padding-bottom:15px;
+    }
+
     &:before {
-        content:"";
+        content: "";
         background: rgba(#2F4858, 0.95);
-        position:absolute;
-        top:0;
-        left:0;
-        height:100%;
-        width:100%;
+        position: absolute;
+        top: 0;
+        left: 0;
+        height: 100%;
+        width: 100%;
     }
 
     .vcenter {
         min-height: 300px;
-        position:relative;
-        z-index:99;
+        position: relative;
+        z-index: 99;
     }
 
     p {
