@@ -6,6 +6,8 @@
   "scripts": {
     "dev": "parcel index.html",
     "watch": "parcel watch index.html",
+    "build:dev": "parcel build index.html --no-cache --no-minify",
+    "build:prod": "parcel build index.html --no-cache",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
